@@ -46,9 +46,25 @@ body
     font-size: 15px;
 }
 
-
+.hero
+{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
     
 }
+    
+h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: right;
+    margin-top: 300px;
+    
+}
+
 header
 {
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pic1.png);
@@ -72,30 +88,12 @@ header
     font-size: 13px;
     text-transform: uppercase;
 }
-.btn-one
-{
-    background-color: darkorange;
-    font-family: "Roboto", sans-serif;
-}
-
-.btn-two
-{
-    font-family: "Roboto", sans-serif;
-}
-
-
-.btn-two:hover
-{
-    background-color: darkorange;
-    transition: all 0.5s ease-in;
-    
-        
-}
 
 .logo img
 {
-    width: 150px;
+    width: 100px;
     height: auto;
+    float: left;
 }
 
 
